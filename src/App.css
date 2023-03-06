@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Ubuntu";
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  border: 2px solid white;
+  min-width: 40%;
+  min-height: 35%;
+  text-align: center;
+}
+
+.startGameBtn {
+  margin: 1rem auto;
+}
+
+form > label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.playerName {
+  max-width: 60%;
+  margin-left: 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+/* composites */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
